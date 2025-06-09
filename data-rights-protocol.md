@@ -272,7 +272,7 @@ Requests SHOULD contain the following [schema.org/Person](https://schema.org/Per
 
 Covered Businesses SHALL determine for themselves the level of reliance they will place on a given token. Authorized Agents SHALL make reasonable efforts to provide trustworthy tokens, by verifying user-attested claims according to the practices agreed under the System Agreement, by attaching user-attested claims as available, and by ensuring their envelopes are signed by a key which the Covered Businesses and CBs can verify against.
 
-Note that for a Covered Business that specifies one or more supported_verifications, the corresponding user identity fields SHOULD be in the request, and SHOULD be verified if possible.  Other identity fields SHOULD be omitted to limit unnecessary personal information transmitted.  If the Covered Business specifies no supported_verifications, it is up the discression of the Authorized Igent as to what identity fields to include in the reuquest.
+Note that for a Covered Business that specifies one or more supported_verifications, the corresponding user identity fields SHOULD be in the request, and SHOULD be verified if possible.  Other identity fields SHOULD be omitted to limit unnecessary personal information transmitted.  If the Covered Business specifies no supported_verifications, it is up the discression of the Authorized Agent as to what identity fields to include in the reuquest.
 
 
 ### 3.05 Schema: Agent/Business Discovery Documents
